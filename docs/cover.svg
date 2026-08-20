@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c0d10"/>
+      <stop offset="100%" stop-color="#151a24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1232" height="84" rx="18" fill="#15171c"/>
+  <text x="48" y="78" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="42" font-weight="700" fill="#7dd3fc">aidisc</text>
+  <text x="220" y="72" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="22" fill="#9aa3b2">浏览器内多栏 AI 协作讨论</text>
+
+  <g>
+    <rect x="24" y="128" width="400" height="300" rx="16" fill="#12141a" stroke="#2a2e37"/>
+    <rect x="24" y="128" width="400" height="48" rx="16" fill="#15171c"/>
+    <circle cx="48" cy="152" r="8" fill="#2563eb"/>
+    <text x="66" y="158" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#eef1f6">决策席 · ChatGPT</text>
+    <text x="44" y="210" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="16" fill="#9aa3b2">定目标 / 拆任务 / 定标准</text>
+    <rect x="44" y="240" width="360" height="60" rx="10" fill="#1a1d24"/>
+    <text x="60" y="276" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">输入议题后自动开始协作…</text>
+    <rect x="44" y="316" width="360" height="80" rx="10" fill="#1a1d24"/>
+    <text x="60" y="362" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">结果在官网对话中可见</text>
+  </g>
+  <g>
+    <rect x="440" y="128" width="400" height="300" rx="16" fill="#12141a" stroke="#2a2e37"/>
+    <rect x="440" y="128" width="400" height="48" rx="16" fill="#15171c"/>
+    <circle cx="464" cy="152" r="8" fill="#059669"/>
+    <text x="482" y="158" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#eef1f6">执行席 · Grok</text>
+    <text x="460" y="210" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="16" fill="#9aa3b2">按决议产出可交付成果</text>
+    <rect x="460" y="240" width="360" height="60" rx="10" fill="#1a1d24"/>
+    <text x="476" y="276" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">每栏可下拉切换模型官网</text>
+    <rect x="460" y="316" width="360" height="80" rx="10" fill="#1a1d24"/>
+    <text x="476" y="362" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">插件内嵌，无需 API Key</text>
+  </g>
+  <g>
+    <rect x="856" y="128" width="400" height="300" rx="16" fill="#12141a" stroke="#2a2e37"/>
+    <rect x="856" y="128" width="400" height="48" rx="16" fill="#15171c"/>
+    <circle cx="880" cy="152" r="8" fill="#d97706"/>
+    <text x="898" y="158" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#eef1f6">验收席 · Gemini</text>
+    <text x="876" y="210" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="16" fill="#9aa3b2">对照清单验收或返工</text>
+    <rect x="876" y="240" width="360" height="60" rx="10" fill="#1a1d24"/>
+    <text x="892" y="276" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">支持多场景：辩论 / 红蓝 / 产研测…</text>
+    <rect x="876" y="316" width="360" height="80" rx="10" fill="#1a1d24"/>
+    <text x="892" y="362" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#9aa3b2">一键新会话，重新开局</text>
+  </g>
+
+  <rect x="24" y="460" width="120" height="36" rx="18" fill="#1a2332" stroke="#2a3a55"/>
+  <text x="44" y="484" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="15" fill="#7dd3fc">8 种场景</text>
+  <rect x="156" y="460" width="160" height="36" rx="18" fill="#1a2332" stroke="#2a3a55"/>
+  <text x="176" y="484" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="15" fill="#7dd3fc">每栏下拉选模型</text>
+  <rect x="328" y="460" width="140" height="36" rx="18" fill="#1a2332" stroke="#2a3a55"/>
+  <text x="348" y="484" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="15" fill="#7dd3fc">插件内嵌官网</text>
+  <rect x="480" y="460" width="120" height="36" rx="18" fill="#1a2332" stroke="#2a3a55"/>
+  <text x="500" y="484" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="15" fill="#7dd3fc">一键新会话</text>
+  <rect x="612" y="460" width="140" height="36" rx="18" fill="#1a2332" stroke="#2a3a55"/>
+  <text x="632" y="484" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="15" fill="#7dd3fc">无需 API Key</text>
+
+  <text x="24" y="540" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#6b7280">场景：决策验收 · 三案评论 · 2v2+评委 · 队长分工 · 红蓝对抗 · 产研测 · 教学批改 · 投融资答辩</text>
+  <text x="24" y="580" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#6b7280">Chrome 扩展 · 使用已登录的模型官网 · 国内站直连 / 国外站可配合代理分流</text>
+  <text x="24" y="640" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="14" fill="#4b5563">github.com/zmt18928708528-eng/aidisc · v1.2.3</text>
+</svg>
