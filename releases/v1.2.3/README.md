@@ -1,20 +1,28 @@
-# aidisc v1.2.3 Package
+# aidisc v1.2.3 安装包
 
-## 安装
+![cover](../../docs/cover.svg)
 
-### 方式 A（推荐）
-从本目录解包：
+## 快速安装
+
+1. 下载完整包 `aidisc-v1.2.3.zip`（对话附件或本目录解包）
+2. 解压
+3. Chrome 打开 `chrome://extensions`
+4. 开启「开发者模式」
+5. 「加载已解压的扩展程序」
+
+## 从仓库解包（若已上传全部 p0–p9）
 
 ```bash
 cd releases/v1.2.3
 bash extract.sh
 ```
 
-然后 Chrome 打开 `chrome://extensions` → 开发者模式 → 加载已解压的扩展程序 → 选 `aidisc-v1.2.3` 目录。
+## 正式 GitHub Release
 
-### 方式 B
-直接下载对话中提供的 `aidisc-v1.2.3.zip` 解压后加载。
+当前连接的 API **不支持** 创建 Release 并上传二进制附件。请在网页上完成：
 
-## 说明图
-
-见仓库根目录 [docs/cover.svg](../../docs/cover.svg)
+1. 打开 https://github.com/zmt18928708528-eng/aidisc/releases/new
+2. Tag：`v1.2.3`（可选已有分支）
+3. 标题：aidisc v1.2.3
+4. 上传 `aidisc-v1.2.3.zip` + 可选 `aidisc-cover.png`
+5. Publish
