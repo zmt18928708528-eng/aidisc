@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>aidisc</title>
+    <link rel="stylesheet" href="hub.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <strong>aidisc</strong>
+        <span>AI multi-seat discussion</span>
+      </div>
+      <label class="scenario-wrap">
+        <span>场景</span>
+        <select id="scenario"></select>
+      </label>
+      <div class="composer">
+        <input id="topic" maxlength="240" placeholder="输入议题…" />
+        <input id="brief" maxlength="600" placeholder="补充（可选）" />
+        <button id="btnStart" type="button">开始</button>
+        <button id="btnStop" type="button" class="ghost" hidden>停止</button>
+        <button id="btnNew" type="button" class="accent">全部新会话</button>
+      </div>
+    </header>
+    <p id="scenarioDesc" class="desc"></p>
+    <p id="status" class="status">选择场景 → 每栏下拉选模型并登录 → 输入议题开始。</p>
+    <main class="panels" id="panels"></main>
+    <script src="shared/catalog.js"></script>
+    <script src="shared/scenarios.js"></script>
+    <script src="shared/defaults.js"></script>
+    <script src="hub.js"></script>
+  </body>
+</html>
