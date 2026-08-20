@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "aidisc",
+  "version": "1.2.3",
+  "description": "多人 AI 协作。每栏下拉选模型官网。含决策验收、辩论评委、红蓝对抗、产研测、教学、投融资答辩等场景。",
+  "minimum_chrome_version": "116",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "打开 aidisc",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "webNavigation",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "strip_frame_headers",
+        "enabled": true,
+        "path": "rules/strip_headers.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/driver.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
